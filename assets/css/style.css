@@ -488,7 +488,7 @@ h5.subtitle {
 .dropdown-item:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #635CDB;
+    background-color: #78c352;
 
 }
 
@@ -792,6 +792,33 @@ h5.subtitle {
     box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
 }
 
+.service-box-dropdown .service-img-icon {
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    background: #fff;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    background: #78c352;
+    border: 1px solid rgba(255,255,255,.2);
+    color: #fff;
+}
+
+.service-box-dropdown {
+    margin-bottom: 40px;
+    background: #fff;
+    text-align: center;
+    padding: 45px 25px 30px 25px;
+    border: 1px solid transparent;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
 
 .service-inner {
     margin-top: 30px;
@@ -1477,3 +1504,66 @@ BLOG SINGLE
     width: 80px;
     height: 80px;
 }
+/* Dropdown Button */
+.dropbtn {
+    background-color: #fff;
+    color: #000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+    color: #fff;
+  }
+  
+  /* The search field */
+  #myInput {
+    box-sizing: border-box;
+    background-position: 14px 12px;
+    background-size: 10% 60%;
+    background-image: url('../img/icon/searchicon.png');
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* The search field when it gets focus/clicked on */
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #78c352
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  
